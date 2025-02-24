@@ -2,7 +2,8 @@
   "name": "baghchal",
   "version": "1.0.7",
   "description": "A Bagh Chal game library inspired by chess.js",
-  "main": "dist/index.js",
+ "main": "dist/"
+,
   "files": [
     "dist",
     "lib"
