@@ -2,9 +2,15 @@
   "name": "baghchal",
   "version": "1.0.4",
   "description": "A Bagh Chal game library inspired by chess.js",
-  "main": "src/index.js",
+  "main": "dist/baghchal.js",  
+  "files": [
+    "dist", 
+    "lib"  
+  ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "your-build-command", 
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "baghchal",

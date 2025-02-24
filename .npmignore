@@ -1,3 +1,4 @@
-src/
-tests/
-*.js
+src/         # Source code directory, to be excluded
+tests/       # Test files
+.git/        # Git directory
+package.json # If you don't want to include it (though it's generally needed)
