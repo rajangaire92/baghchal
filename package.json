@@ -1,16 +1,21 @@
 {
   "name": "baghchal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Bagh Chal game library inspired by chess.js",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["baghchal", "game", "js", "library", "board-game"],
+  "keywords": [
+    "baghchal",
+    "game",
+    "js",
+    "library",
+    "board-game"
+  ],
   "author": "Rajan Gaire",
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"
   }
 }
-
